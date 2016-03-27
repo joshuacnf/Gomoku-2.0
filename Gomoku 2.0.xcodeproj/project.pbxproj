@@ -14,7 +14,6 @@
 		42C380CA1CA32BF5006A8814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C380C91CA32BF5006A8814 /* Assets.xcassets */; };
 		42C380CD1CA32BF5006A8814 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42C380CB1CA32BF5006A8814 /* MainMenu.xib */; };
 		42C380F81CA33369006A8814 /* database.txt in Resources */ = {isa = PBXBuildFile; fileRef = 42C380F71CA33369006A8814 /* database.txt */; };
-		42EA12C81CA67336009C3872 /* AI0.h in Sources */ = {isa = PBXBuildFile; fileRef = 42FD18CE1CA397120087584D /* AI0.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		42C380F51CA332CD006A8814 /* TranspositionTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranspositionTable.h; sourceTree = "<group>"; };
 		42C380F61CA332CD006A8814 /* utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utilities.h; sourceTree = "<group>"; };
 		42C380F71CA33369006A8814 /* database.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = database.txt; sourceTree = "<group>"; };
-		42FD18CE1CA397120087584D /* AI0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AI0.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +133,6 @@
 				42C380F41CA332CD006A8814 /* MoveGenerator.h */,
 				42C380F51CA332CD006A8814 /* TranspositionTable.h */,
 				42C380F11CA332CD006A8814 /* AI.h */,
-				42FD18CE1CA397120087584D /* AI0.h */,
 			);
 			path = AI;
 			sourceTree = "<group>";
@@ -271,7 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42EA12C81CA67336009C3872 /* AI0.h in Sources */,
 				42C380C31CA32BF5006A8814 /* main.m in Sources */,
 				42C380C61CA32BF5006A8814 /* GameScene.mm in Sources */,
 				42C380C01CA32BF5006A8814 /* AppDelegate.m in Sources */,
